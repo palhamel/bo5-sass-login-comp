@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>BS5 login</title>
+  </head>
+  <body class="d-flex text-center bg-secondary">
+    <form class="form-login">
+      <img
+        src="/node_modules/bootstrap-icons/icons/calendar-date.svg"
+        alt=""
+        height="72"
+        width="72"
+        class="mb-4"
+      />
+
+      <h1 class="h3 mb-3 font-weight-normal" ">Login to book a meeting</h1>
+      <label for="inputEmail" class="visually-hidden">Email Address</label>
+      <input
+        type="email"
+        id="inputEmail"
+        class="form-control mb-2 ip-3"
+        placeholder="Email address"
+        required
+        autofocus
+      />
+      <label for="inputPassword" class="visually-hidden">Password</label>
+      <input
+        type="password"
+        id="inputPassword"
+        class="form-control mb-2 ip-3"
+        placeholder="Password"
+        required
+      />
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me" /> Remember me
+        </label>
+      </div>
+      <div class="d-grid mx-auto">
+        <button class="btn btn-lg btn-primary" type="submit">
+          Login
+        </button>
+      </div>
+    </form> 
+    <!-- Get JS in node_modules or use CDN link -->
+    <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.js"></script> -->
+    <!-- Bootstrap JS bundle incl Popper: -->
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"
+  ></script>
+
+
+  </body>
+</html>
